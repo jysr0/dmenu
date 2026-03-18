@@ -24,11 +24,11 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static const char *colors[SchemeLast][2] = {
 	/*                        fg         bg       */
 	[SchemeNorm]          = { "#bbbbbb", "#222222" },
-	[SchemeSel]           = { "#eeeeee", "#770000" },
-	[SchemeSelHighlight]  = { "#ffc978", "#770000" },
+	[SchemeSel]           = { "#eeeeee", "#005577" },
+	[SchemeSelHighlight]  = { "#ffc978", "#005577" },
 	[SchemeNormHighlight] = { "#ffc978", "#222222" },
 	[SchemeOut]           = { "#000000", "#00ffff" },
-	[SchemeBorder]        = { "#770000", NULL },
+	[SchemeBorder]        = { "#005577", NULL },
 	[SchemeCaret]         = { "#eeeeee", "#222222" },
 
 	// gruvbox
